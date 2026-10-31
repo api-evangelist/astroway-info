@@ -74,11 +74,48 @@ Everything profiled for astroway-info is published on APIs.io rather than in thi
 
 ### APIs (3)
 
-- AstroWay Calculation API — Professional astrology calculation API powered by Swiss Ephemeris. Compute natal charts, synastry, progressions, directions, transits, Human Design, and 80+…
-- AstroWay Calculation API V1 API — Professional astrology calculation API powered by Swiss Ephemeris. Compute natal charts, synastry, progressions, directions, transits, Human Design, and 80+…
-- astroway-info Openapi API — Professional astrology calculation API powered by Swiss Ephemeris. Compute natal charts, synastry, progressions, directions, transits, Human Design, and 80+…
+- [AstroWay Calculation API](https://apis.io/apis/astroway-info/calculation-api/) — Professional astrology calculation API powered by Swiss Ephemeris. Compute natal charts, synastry, progressions, directions, transits, Human Design, and 80+…
+- [AstroWay Calculation API V1 API](https://apis.io/apis/astroway-info/astroway-calculation-api-v1-api/) — Professional astrology calculation API powered by Swiss Ephemeris. Compute natal charts, synastry, progressions, directions, transits, Human Design, and 80+…
+- [astroway-info Openapi API](https://apis.io/apis/astroway-info/astroway-info-openapi-api/) — Professional astrology calculation API powered by Swiss Ephemeris. Compute natal charts, synastry, progressions, directions, transits, Human Design, and 80+…
 
-_These APIs get their own pages on APIs.io at the next catalog build, and this README is re-rendered with links when they do._
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Astroway Info Webhooks](https://apis.io/asyncapis/astroway-info/astroway-info-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BiWheelRequest](https://apis.io/schemas/astroway-info/astroway-info-bi-wheel-request/)
+- [GenerateReport](https://apis.io/schemas/astroway-info/astroway-info-generate-report/)
+- [SynastryReport](https://apis.io/schemas/astroway-info/astroway-info-synastry-report/)
+- [TriWheel](https://apis.io/schemas/astroway-info/astroway-info-tri-wheel/)
+- [WheelWestern](https://apis.io/schemas/astroway-info/astroway-info-wheel-western/)
+- [WheelWesternRequest](https://apis.io/schemas/astroway-info/astroway-info-wheel-western-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Astroway Info Context](https://apis.io/jsonld/astroway-info/astroway-info-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [astroway-info API Rules](https://apis.io/rules/astroway-info/astroway-info-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Astroway Info Domain Security](https://apis.io/security/astroway-info/astroway-info-domain-security/)
 
 ## Where to find this API
 
@@ -96,7 +133,46 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/astroway-info/](https://apis.io/providers/astroway-info/).
+**Kin Score 58.9** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 64.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 52.6 |
+
+**Agent readiness 45.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/astroway-info/](https://apis.io/providers/astroway-info/).
 
 ## How this profile is made
 
